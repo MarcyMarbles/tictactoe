@@ -1,0 +1,43 @@
+<html>
+<head>
+    <style>
+        .game-board {
+            display: flex;
+            flex-wrap: wrap;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            border: 1px solid black;
+        }
+
+        .square {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            font-size: 36px;
+            box-sizing: border-box;
+        }
+
+        .square:hover {
+            background-color: lightgray;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="game-board">
+    <div id="0" class="square"></div>
+    <div id="1" class="square"></div>
+    <div id="2" class="square"></div>
+    <div id="3" class="square"></div>
+    <div id="4" class="square"></div>
+    <div id="5" class="square"></div>
+    <div id="6" class="square"></div>
+    <div id="7" class="square"></div>
+    <div id="8" class="square"></div>
+</div>
+<script src="tic-tac-toe.js"></script>
+</body>
+</html>
